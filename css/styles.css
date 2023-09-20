@@ -1,0 +1,217 @@
+/* styles.css */
+
+#title {
+    background-color: #afeafa; /* Set the desired background color */
+  }
+
+  h1 {
+    font-family: 'Montesarrat-Black ';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-style: italic;
+
+  }
+  .pic
+  {
+    width: 30rem;
+    height: 25rem;
+    
+  }
+  .container-fluid{
+    padding: 3% 15% ;
+  }
+ .btn{
+  padding: 3% 5%;
+  margin-left: 1.5rem;
+ }
+ .container
+ {
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  line-height: 1;
+  color:rgb(22, 64, 126);
+  margin-top: 2rem;
+  font-style: italic;
+ }
+.hey
+{
+  color: azure;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1;
+  margin-top: 2rem;
+ 
+}
+.navbar-brand{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: bold;
+  font-size: 1.5rem;
+  color: rgb(27, 119, 206);
+  
+}
+.navbar{
+  padding-bottom:2rem ;
+}
+.nav-link{
+  padding: 20px;
+  font-size: 1.2rem;
+  color: rgb(53, 159, 239);
+
+}
+
+#features{
+  padding: 7% 15% ;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+
+}
+
+h3{
+  font-family: 'Bebas Neue', sans-serif;
+  font-style: bold;
+}
+p{
+  color: grey;
+  font-size: 1.1;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.icon
+{
+  color:rgb(244, 76, 34);
+  margin-bottom: 1rem;
+}
+.icon:hover
+{
+  color:#afeafa;
+}
+.bday
+{
+  width: 33%;
+  height: 40%;
+  padding: 3% 4%;
+  text-align: center;
+
+}
+@media(max-width:900px){
+  .bday{
+    width: 20%;
+    height:35%;
+    padding: 2% 3%;
+  }
+
+}
+#testimonials{
+ padding: 2% 3%;
+  text-align: center;
+  background-color: #2f80ea;
+  color: #c3d5f6;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font: size 2.5rem; 
+  line-height: 1.5;
+}
+
+  
+
+.picture{
+  width: 33%;
+  height: 40%;
+  margin:20px 30px;
+  padding: 3% 4%;
+  
+}
+.carousel-control-prev
+{
+  margin-right: 2px;
+}
+.carousel-item{
+  padding:5% 7%;
+}
+
+#pricing{
+  padding: 75px;
+  text-align: center;
+  align-items: center;
+}
+.pri-col{
+  padding:10px;
+  text-align: center;
+}
+.btn{
+  
+  margin-left: 5px;
+}
+@media (max-width: 1028px)
+{
+  .navbar-brand{
+    font-size: 10px;
+  }
+  h1{
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+#cta{
+  text-align: center;
+}
+.foot{
+  background-color: #afeafa;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #4685ea;
+  padding: 5% 7%;
+}
+.queiry{
+  font-size: 1.5rem;
+  color: black;
+}
+.md{
+text-align: center;
+
+margin: auto;
+}
+.btnn{
+  width: 10%;
+  text-align: center;
+  margin: auto;
+}
+.social{
+  padding: 5px 8px;
+  text-align: center;
+}
+.fa-brands{
+  padding-left: 5px;
+  margin: auto;
+  text-align: center;
+}
+#footer{
+  padding: 3% 5%;
+}
+
+.ti{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  color: #4685ea;
+
+}
+@media (max-width:900px)
+{
+  
+.ti{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  color: #4685ea;
+
+}
+}
+.ji{
+  
+  color: #4685ea;
+
+}
+.ji:hover{
+  color: #fff;
+}
